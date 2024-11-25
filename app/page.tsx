@@ -12,14 +12,14 @@ const page = () => {
   return (
     <div>
       <Header></Header>
-      {/* <Hero></Hero>
+      <Hero></Hero>
       <Logo></Logo>
       <Team></Team>
       <Achivements></Achivements>
       <Courses></Courses>
       <TeamTwo></TeamTwo>
       <Customer></Customer>
-      <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   )
 }
