@@ -17,21 +17,15 @@ const roboto = Roboto({
 const Header = () => {
   return (
     <div>
-      <div className="h-[54px] bg-[#F7F7F7] px-4 sm:px-[62px] flex justify-between items-center border-b-2 border-black">
-        <div className="flex flex-wrap items-center">
+      <div className="max-sm:flex  max-sm:flex-col max-sm:justify-between max-sm-mx-0  max-sm-px-0   h-[54px] bg-[#F7F7F7] px-4 sm:px-[62px] flex justify-between items-center border-b-2 border-black">
+        <div className="flex flex-wrap items-center space-x-2 sm:space-x-4">
           <p
             className={`${roboto.className} font-normal text-[14px] text-black`}
           >
             Phone Number: 956 742 455 678
           </p>
-          <span className="mx-2">
-            {" "}
-            <Image
-              src="/Image/Line 3.png"
-              alt="line"
-              width={1}
-              height={1}
-            ></Image>
+          <span className="mx-2 sm:mx-4 max-sm:hidden">
+            <Image src="/Image/Line 3.png" alt="line" width={1} height={1} />
           </span>
           <p
             className={`${roboto.className} font-normal text-[14px] text-black`}
@@ -44,7 +38,7 @@ const Header = () => {
             </span>
           </p>
         </div>
-        <div className="flex space-x-4 justify-end ml-2 sm:ml-0">
+        <div className="flex space-x-4 justify-end ml-2 sm:ml-0 max-sm:hidden">
           <Link href={"#"}>
             <FaFacebookSquare className="w-[18px] h-[18px] text-black" />
           </Link>
@@ -71,8 +65,28 @@ const Header = () => {
             />
           </div>
 
-          <div className="flex flex-wrap md:w-[910px] sm:w-auto justify-between items-center bg-white  ">
+          <div className="hidden md:flex flex-wrap justify-between items-center bg-white">
             <ul className="flex gap-9 sm:gap-4 w-full sm:w-auto flex-wrap justify-center sm:justify-start mt-4 sm:mt-0">
+              <li className={`${roboto.className} p-[10px]`}>Home</li>
+              <li className={`${roboto.className} p-[10px]`}>Courses</li>
+              <li className={`${roboto.className} p-[10px]`}>Services</li>
+              <li className={`${roboto.className} p-[10px]`}>Achievement</li>
+              <li className={`${roboto.className} p-[10px]`}>About Us</li>
+              <li className={`${roboto.className} p-[10px]`}>Testimonial</li>
+            </ul>
+
+            <div className="flex space-x-4 mt-4 sm:mt-0">
+              <button className="w-20 h-10 rounded-[5px] border border-black px-[2px] py-[8px]">
+                Login
+              </button>
+              <button className="w-20 h-10 rounded-[5px] bg-black text-white px-3 py-[8px]">
+                Sign up
+              </button>
+            </div>
+          </div>
+
+          <div className="sm:hidden flex justify-between items-center w-full mt-4">
+            <ul className="flex gap-4 w-full justify-between px-4">
               <li className={`${roboto.className} p-[10px]`}>Home</li>
               <li className={`${roboto.className} p-[10px]`}>Courses</li>
               <li className={`${roboto.className} p-[10px]`}>Services</li>
