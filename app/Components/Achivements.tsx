@@ -8,14 +8,14 @@ const roboto = Roboto({
 const Achivements = () => {
   return (
     <div>
-      <div className="w-auto h-[488px] py-[112px] px-[64px] mt-16  ">
-        <div className="  h-[136px] w-[1152px]  flex flex-col items-center justify-evenly ">
-          <h1 className={`${roboto.className} font-bold text-5xl `}>
+       <div className="w-auto h-auto lg:h-[488px] py-[112px] px-[64px] sm:py-[112px] md:px-[64px] mt-16">
+        <div className=" h-auto w-auto lg:h-[136px] lg:w-[1152px]  flex flex-col items-center justify-evenly text-center">
+          <h1 className={`${roboto.className} font-bold text-4xl lg:text-5xl `}>
             Our Achievements
           </h1>
 
           <p
-            className={`${roboto.className} font-normal text-[18px]  text-center  `}
+            className={`${roboto.className} mt-5  font-normal max-sm-text-[14px] text-[18px] sm:text-x  text-center lg:mt-6  `}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique. Duis cursus, mi quis
@@ -24,24 +24,25 @@ const Achivements = () => {
           </p>
         </div>
 
-        <div className=" mt-10 ">
+        <div className=" md:mt-10 mt-8 ">
           <Image
             src="/Image/logo/logo.svg"
             alt="image"
             width={1152}
             height={96}
+            className="max-w-full"
           ></Image>
         </div>
       </div>
 
-      <div className="w-auto h-[488px] py-[112px] px-[64px] mt-14">
-        <div className="  h-[136px] w-[1152px]  flex flex-col items-center justify-evenly ">
-          <h1 className={`${roboto.className} font-bold text-5xl `}>
+      <div className="w-auto h-auto lg:h-[488px] py-[112px] px-[64px] sm:py-[112px] md:px-[64px] mt-16">
+        <div className=" h-auto w-auto lg:h-[136px] lg:w-[1152px]  flex flex-col items-center justify-evenly text-center">
+          <h1 className={`${roboto.className} font-bold text-4xl lg:text-5xl `}>
             Our Achievements
           </h1>
 
           <p
-            className={`${roboto.className} font-normal text-[18px]  text-center  `}
+            className={`${roboto.className} mt-5 font-normal max-sm-text-[14px] text-[18px] sm:text-x  text-center lg:mt-6  `}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique. Duis cursus, mi quis
@@ -50,12 +51,13 @@ const Achivements = () => {
           </p>
         </div>
 
-        <div className=" mt-10 ">
+        <div className=" md:mt-10 mt-8 ">
           <Image
             src="/Image/logo/logo.svg"
             alt="image"
             width={1152}
             height={96}
+            className="max-w-full"
           ></Image>
         </div>
       </div>

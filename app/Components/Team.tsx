@@ -17,14 +17,14 @@ const Team = () => {
           Explore Courses By Category
         </h1>
         <p
-          className={`${roboto.className} font-normal lg:text-[18px] text-[11px] text-center text-black h-[27px] w-auto  sm:w-auto lg:w-[768px] mt-5`}
+          className={`${roboto.className} max-sm:mx-2 font-normal lg:text-[18px] text-[11px] text-center text-black h-[27px] w-auto  sm:w-auto lg:w-[768px] mt-5`}
         >
           Discover a wide range of courses covering a variety of subjects,
           taught by expert instructors.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-[60px] mt-10 w-auto lg:w-[1335px] h-auto lg:h-[636px] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-[60px] max-sm:mt-5 mt-10 w-auto lg:w-[1335px] h-auto lg:h-[636px] mx-auto">
         {/* 1 */}
         <div className=" w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
           <Image
@@ -92,7 +92,7 @@ const Team = () => {
         </div>
 
         {/* 4 */}
-        <div className="w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
+        <div className="max-sm:hidden w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
           <Image
             src="/Image/team/Frame3.png"
             alt="frame"
@@ -114,7 +114,7 @@ const Team = () => {
         </div>
 
         {/* 5 */}
-        <div className="w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
+        <div className="max-sm:hidden w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
           <Image
             src="/Image/team/Frame4.png"
             alt="frame"
@@ -136,7 +136,7 @@ const Team = () => {
         </div>
 
         {/* 6 */}
-        <div className="w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
+        <div className="max-sm:hidden w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
           <Image
             src="/Image/team/Frame5.png"
             alt="frame"
@@ -158,7 +158,7 @@ const Team = () => {
         </div>
 
         {/* 7 */}
-        <div className="w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
+        <div className="max-sm:hidden w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
           <Image
             src="/Image/team/Frame6.png"
             alt="frame"
@@ -180,7 +180,7 @@ const Team = () => {
         </div>
 
         {/* 8 */}
-        <div className="w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
+        <div className="max-sm:hidden w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
           <Image
             src="/Image/team/Frame7.png"
             alt="frame"
@@ -200,7 +200,7 @@ const Team = () => {
             </p>
           </div>
         </div>
-        <div className="w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
+        <div className="max-sm:hidden w-auto lg:w-[410.67px] h-auto lg:h-[132px] bg-[#F7F7F7] lg:p-4 p-2 flex items-center rounded-[5px]">
           <Image
             src="/Image/team/Frame7.png"
             alt="frame"

@@ -17,8 +17,8 @@ const roboto = Roboto({
 const Header = () => {
   return (
     <div>
-      {/* Top bar: Contact info */}
-      <div className="bg-[#F7F7F7] px-4 sm:px-[62px] py-2 flex justify-between items-center border-b-2 border-black flex-wrap md:flex-nowrap">
+      
+      <div className="max-sm:hidden bg-[#F7F7F7] px-4 sm:px-[62px] py-2 flex justify-between items-center border-b-2 border-black flex-wrap md:flex-nowrap">
         <div className="flex flex-wrap items-center space-x-2 sm:space-x-4 text-xs sm:text-sm">
           <p className={`${roboto.className} font-normal text-black`}>
             Phone Number: 956 742 455 678
@@ -34,7 +34,7 @@ const Header = () => {
           </p>
         </div>
 
-        {/* Social Icons */}
+       
         <div className="hidden sm:flex space-x-4 justify-end">
           <Link href={"#"}>
             <FaFacebookSquare className="w-[18px] h-[18px] text-black" />
@@ -51,10 +51,10 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Navigation Bar */}
-      <nav className="mt-5 h-[72px] bg-[#F7F7F7] px-4 sm:px-[64px] border-b border-[#676767]">
+     
+      <nav className="max-sm:mt-0  sm:mt-5 h-[72px] bg-[#F7F7F7] px-4 sm:px-[64px] border-b border-[#676767]">
         <div className="flex justify-between items-center w-full h-[44px] pt-[18px]">
-          {/* Logo */}
+          
           <div>
             <Image
               src="/Image/Ddsgnr Library.png"
@@ -64,7 +64,7 @@ const Header = () => {
             />
           </div>
 
-          {/* Desktop Navigation Menu */}
+        
           <div className=" hidden md:flex flex-wrap justify-between items-center bg-white">
             <ul className="flex gap-9 sm:gap-4 w-full sm:w-auto flex-wrap justify-center sm:justify-start mt-4 sm:mt-0">
               <li className={`${roboto.className} p-[10px]`}>Home</li>
@@ -85,7 +85,7 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Mobile Navigation Menu */}
+          
           <div className="max-sm:hidden sm:hidden flex justify-between items-center w-full mt-4">
             <ul className="flex gap-4 w-full justify-between px-4">
               <li className={`${roboto.className} p-[10px]`}>Home</li>
