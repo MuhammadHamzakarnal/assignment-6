@@ -65,7 +65,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation Menu */}
-          <div className="hidden md:flex flex-wrap justify-between items-center bg-white">
+          <div className=" hidden md:flex flex-wrap justify-between items-center bg-white">
             <ul className="flex gap-9 sm:gap-4 w-full sm:w-auto flex-wrap justify-center sm:justify-start mt-4 sm:mt-0">
               <li className={`${roboto.className} p-[10px]`}>Home</li>
               <li className={`${roboto.className} p-[10px]`}>Courses</li>

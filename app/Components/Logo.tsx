@@ -11,7 +11,7 @@ const Logo = () => {
     <div className="">
       <div className="w-auto h-[228px] bg-[#F7F7F7]  py-[80px] flex justify-between ">
         <div
-          className={`${roboto.className} font-bold ml-4 text-2xl w-[320px] h-[68px]`}
+          className={`${roboto.className} font-bold ml-4 text-[10px] w-[320px] h-[68px] sm:text-[12px] lg:text-[24px] `}
         >
           Trusted by 2000+ companies worldwide
         </div>
