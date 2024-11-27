@@ -9,28 +9,29 @@ import Image from "next/image";
 const TeamTwo = () => {
   return (
     <div>
-      <div className="w-auto h-[895px] py-[112px] px-[64px] bg-[#F7F7F7] ">
-        <div className="w-[768px] h-[109px] mx-auto text-center ">
+      <div className="w-full md:h-[895px] py-[112px] md:px-[64px] px-16  bg-[#F7F7F7] ">
+        <div className=" max-sm:mt-32 max-w-screen-lg mx-auto text-center ">
           <h1
-            className={`${roboto.className} font-bold text-[48px] w-[768px] h-[58px]`}
+            className={`${roboto.className} font-bold text-[32px] md:text-[48px] text-center`}
           >
             Our team
           </h1>
           <p
-            className={`${roboto.className} font-normal text-[18px] w-[768px] h-[27px] mt-6`}
+            className={`${roboto.className} font-normal text-[18px] md:w-[768px] md:h-[27px] mt-6`}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
           </p>
         </div>
-        <div className="w-auto h-[482px] mt-16    grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+        <div className="md:w-auto md:h-[482px] mt-16    grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
           {/* 1 */}
-          <div className="w-[394.67px] h-[209px] gap-6">
+          <div className="md:w-[394.67px] md:h-[209px] flex flex-col items-center">
             <div className="flex justify-center ">
               <Image
                 src="/Image/Teamtwo/Image1.svg"
                 alt="Teamimage"
                 width={80}
                 height={80}
+                className= "object-cover"
               ></Image>
             </div>
             <div className="flex flex-col justify-center items-center mt-4 ">
@@ -47,17 +48,19 @@ const TeamTwo = () => {
                 alt="socialicon"
                 width={100}
                 height={24}
+                className="object-cover"
               ></Image>
             </div>
           </div>
           {/* 2 */}
-          <div className="w-[394.67px] h-[209px] gap-6">
+          <div className="md:w-[394.67px] md:h-[209px] flex flex-col items-center">
             <div className="flex justify-center ">
               <Image
                 src="/Image/Teamtwo/Image2.svg"
                 alt="Teamimage"
                 width={80}
                 height={80}
+                className="object-cover"
               ></Image>
             </div>
             <div className="flex flex-col justify-center items-center mt-4 ">
@@ -74,17 +77,19 @@ const TeamTwo = () => {
                 alt="socialicon"
                 width={100}
                 height={24}
+                className="object-cover"
               ></Image>
             </div>
           </div>
           {/* 3 */}
-          <div className="w-[394.67px] h-[209px]  gap-6">
+          <div className="md:w-[394.67px] md:h-[209px]  flex flex-col items-center">
             <div className="flex justify-center ">
               <Image
                 src="/Image/Teamtwo/Image3.svg"
                 alt="Teamimage"
                 width={80}
                 height={80}
+                className="object-cover"
               ></Image>
             </div>
             <div className="flex flex-col justify-center items-center mt-4 ">
@@ -101,11 +106,12 @@ const TeamTwo = () => {
                 alt="socialicon"
                 width={100}
                 height={24}
+                className="object-cover"
               ></Image>
             </div>
           </div>
           {/* 4 */}
-          <div className="w-[394.67px] h-[209px]  gap-6">
+          <div className=" max-sm:hidden w-[394.67px] h-[209px]  gap-6">
             <div className="flex justify-center ">
               <Image
                 src="/Image/Teamtwo/Image4.svg"
@@ -132,7 +138,7 @@ const TeamTwo = () => {
             </div>
           </div>
           {/* 5 */}
-          <div className="w-[394.67px] h-[209px]  gap-6">
+          <div className="max-sm:hidden w-[394.67px] h-[209px]  gap-6">
             <div className="flex justify-center ">
               <Image
                 src="/Image/Teamtwo/Image5.svg"
@@ -159,7 +165,7 @@ const TeamTwo = () => {
             </div>
           </div>
           {/* 6 */}
-          <div className="w-[394.67px] h-[209px] gap-6">
+          <div className="max-sm:hidden w-[394.67px] h-[209px] gap-6">
             <div className="flex justify-center ">
               <Image
                 src="/Image/Teamtwo/Image6.svg"

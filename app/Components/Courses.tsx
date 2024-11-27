@@ -186,7 +186,7 @@ const Courses = () => {
             </div>
           </div>
           {/* 4 */}
-          <div className="w-full max-w-[416px] h-[534px] rounded-[5px] bg-[#F7F7F7]  ">
+          <div className="max-sm:hidden w-full max-w-[416px] h-[534px] rounded-[5px] bg-[#F7F7F7]  ">
             <Image
               src="/Image/Courses/Image4.png"
               alt="blog image"
@@ -233,7 +233,7 @@ const Courses = () => {
             </div>
           </div>
           {/* 5 */}
-          <div className="w-full max-w-[416px] h-[534px] rounded-[5px] bg-[#F7F7F7] ">
+          <div className="max-sm:hidden w-full max-w-[416px] h-[534px] rounded-[5px] bg-[#F7F7F7] ">
             <Image
               src="/Image/Courses/Image5.svg"
               alt="blog image"
@@ -281,7 +281,7 @@ const Courses = () => {
           </div>
           {/* 6 */}
 
-          <div className="w-full max-w-[416px] h-[534px] rounded-[5px] bg-[#F7F7F7] ">
+          <div className="max-sm:hidden w-full max-w-[416px] h-[534px] rounded-[5px] bg-[#F7F7F7] ">
             <Image
               src="/Image/Courses/Image6.png"
               alt="blog image"
