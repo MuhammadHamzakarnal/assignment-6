@@ -11,15 +11,15 @@ import Footer from './Components/Footer'
 const page = () => {
   return (
     <div>
-      {/* <Header></Header>
+      <Header></Header>
       <Hero></Hero>
       <Logo></Logo>
       <Team></Team>
       <Achivements></Achivements>
       <Courses></Courses> 
-       <TeamTwo></TeamTwo> */}
+       <TeamTwo></TeamTwo>
       <Customer></Customer>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   )
 }
