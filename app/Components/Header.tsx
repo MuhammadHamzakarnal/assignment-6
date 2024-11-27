@@ -17,7 +17,6 @@ const roboto = Roboto({
 const Header = () => {
   return (
     <div>
-      
       <div className="max-sm:hidden bg-[#F7F7F7] px-4 sm:px-[62px] py-2 flex justify-between items-center border-b-2 border-black flex-wrap md:flex-nowrap">
         <div className="flex flex-wrap items-center space-x-2 sm:space-x-4 text-xs sm:text-sm">
           <p className={`${roboto.className} font-normal text-black`}>
@@ -34,7 +33,6 @@ const Header = () => {
           </p>
         </div>
 
-       
         <div className="hidden sm:flex space-x-4 justify-end">
           <Link href={"#"}>
             <FaFacebookSquare className="w-[18px] h-[18px] text-black" />
@@ -51,10 +49,8 @@ const Header = () => {
         </div>
       </div>
 
-     
       <nav className="max-sm:mt-0  sm:mt-5 h-[72px] bg-[#F7F7F7] px-4 sm:px-[64px] border-b border-[#676767]">
         <div className="flex justify-between items-center w-full h-[44px] pt-[18px]">
-          
           <div>
             <Image
               src="/Image/Ddsgnr Library.png"
@@ -63,8 +59,16 @@ const Header = () => {
               height={30.38}
             />
           </div>
+          <div>
+            <Image
+              src="/Image/Icon.svg"
+              alt="icon"
+              width={48}
+              height={48}
+              className="sm:hidden"
+            ></Image>
+          </div>
 
-        
           <div className=" hidden md:flex flex-wrap justify-between items-center bg-white">
             <ul className="flex gap-9 sm:gap-4 w-full sm:w-auto flex-wrap justify-center sm:justify-start mt-4 sm:mt-0">
               <li className={`${roboto.className} p-[10px]`}>Home</li>
@@ -85,7 +89,6 @@ const Header = () => {
             </div>
           </div>
 
-          
           <div className="max-sm:hidden sm:hidden flex justify-between items-center w-full mt-4">
             <ul className="flex gap-4 w-full justify-between px-4">
               <li className={`${roboto.className} p-[10px]`}>Home</li>

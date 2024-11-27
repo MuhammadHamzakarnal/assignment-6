@@ -9,7 +9,7 @@ const Customer = () => {
   return (
     <div>
       <div className=" sm:w-full md:w-auto sm:h-auto md:h-[803.89px] bg-[#F7F7F7]">
-        <div className="w-full  md:w-auto md:h-[109px]  h-auto p-8 ml-8  ">
+        <div className="w-auto  md:w-auto md:h-[109px]  h-auto p-8 ml-8  ">
           <h1
             className={`${roboto.className} font-bold text-[32px] md:text-[48px] text-black  `}
           >
@@ -22,7 +22,7 @@ const Customer = () => {
           </p>
         </div>
         <div className="w-full h-auto md:h-[417.89px] p-8  mx-auto mt-5 md:mt-20 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
-         {/* 1 */}
+          {/* 1 */}
           <div className=" max-w-[362.67px]  md:h-[321.89px] h-auto border border-black p-8 ">
             <Image
               className="p-4"

@@ -31,7 +31,7 @@ const TeamTwo = () => {
                 alt="Teamimage"
                 width={80}
                 height={80}
-                className= "object-cover"
+                className="object-cover"
               ></Image>
             </div>
             <div className="flex flex-col justify-center items-center mt-4 ">

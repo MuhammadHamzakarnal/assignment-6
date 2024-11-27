@@ -34,14 +34,10 @@ const Team = () => {
             height={100}
           />
           <div className="ml-4">
-            <h1
-              className={`${roboto.className} font-semibold text-[20px] `}
-            >
+            <h1 className={`${roboto.className} font-semibold text-[20px] `}>
               Design & Development
             </h1>
-            <p
-              className={`${roboto.className} font-normal text-[18px]`}
-            >
+            <p className={`${roboto.className} font-normal text-[18px]`}>
               50+ Courses Available
             </p>
           </div>
@@ -56,14 +52,10 @@ const Team = () => {
             height={100}
           />
           <div className="ml-4">
-            <h1
-              className={`${roboto.className} font-semibold text-[20px]`}
-            >
+            <h1 className={`${roboto.className} font-semibold text-[20px]`}>
               Marketing
             </h1>
-            <p
-              className={`${roboto.className} font-normal text-[18px]`}
-            >
+            <p className={`${roboto.className} font-normal text-[18px]`}>
               50+ Courses Available
             </p>
           </div>
@@ -78,14 +70,10 @@ const Team = () => {
             height={100}
           />
           <div className="ml-4">
-            <h1
-              className={`${roboto.className} font-semibold text-[20px]`}
-            >
+            <h1 className={`${roboto.className} font-semibold text-[20px]`}>
               Development
             </h1>
-            <p
-              className={`${roboto.className} font-normal text-[18px]`}
-            >
+            <p className={`${roboto.className} font-normal text-[18px]`}>
               50+ Courses Available
             </p>
           </div>
@@ -100,14 +88,10 @@ const Team = () => {
             height={100}
           />
           <div className="ml-4">
-            <h1
-              className={`${roboto.className} font-semibold text-[20px]`}
-            >
+            <h1 className={`${roboto.className} font-semibold text-[20px]`}>
               Communication
             </h1>
-            <p
-              className={`${roboto.className} font-normal text-[18px]`}
-            >
+            <p className={`${roboto.className} font-normal text-[18px]`}>
               50+ Courses Available
             </p>
           </div>
@@ -122,14 +106,10 @@ const Team = () => {
             height={100}
           />
           <div className="ml-4">
-            <h1
-              className={`${roboto.className} font-semibold text-[20px]`}
-            >
+            <h1 className={`${roboto.className} font-semibold text-[20px]`}>
               Digital Marketing
             </h1>
-            <p
-              className={`${roboto.className} font-normal text-[18px]`}
-            >
+            <p className={`${roboto.className} font-normal text-[18px]`}>
               50+ Courses Available
             </p>
           </div>
@@ -144,9 +124,7 @@ const Team = () => {
             height={100}
           />
           <div className="ml-6">
-            <h1
-              className={`${roboto.className} font-normal text-[18px]`}
-            >
+            <h1 className={`${roboto.className} font-normal text-[18px]`}>
               Self Development
             </h1>
             <p
@@ -166,14 +144,10 @@ const Team = () => {
             height={100}
           />
           <div className="ml-4">
-            <h1
-              className={`${roboto.className} font-semibold text-[20px]`}
-            >
+            <h1 className={`${roboto.className} font-semibold text-[20px]`}>
               Business
             </h1>
-            <p
-              className={`${roboto.className} font-normal text-[18px] `}
-            >
+            <p className={`${roboto.className} font-normal text-[18px] `}>
               50+ Courses Available
             </p>
           </div>
@@ -188,14 +162,10 @@ const Team = () => {
             height={100}
           />
           <div className="ml-4">
-            <h1
-              className={`${roboto.className} font-semibold text-[20px]`}
-            >
+            <h1 className={`${roboto.className} font-semibold text-[20px]`}>
               Finance
             </h1>
-            <p
-              className={`${roboto.className} font-normal text-[18px]`}
-            >
+            <p className={`${roboto.className} font-normal text-[18px]`}>
               50+ Courses Available
             </p>
           </div>
@@ -208,14 +178,10 @@ const Team = () => {
             height={100}
           />
           <div className="ml-4">
-            <h1
-              className={`${roboto.className} font-semibold text-[20px]`}
-            >
+            <h1 className={`${roboto.className} font-semibold text-[20px]`}>
               Consulting
             </h1>
-            <p
-              className={`${roboto.className} font-normal text-[18px]`}
-            >
+            <p className={`${roboto.className} font-normal text-[18px]`}>
               50+ Courses Available
             </p>
           </div>

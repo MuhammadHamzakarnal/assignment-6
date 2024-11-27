@@ -8,7 +8,7 @@ const roboto = Roboto({
 const Achivements = () => {
   return (
     <div>
-       <div className="w-auto h-auto lg:h-[488px] py-[112px] px-[64px] sm:py-[112px] md:px-[64px] mt-16">
+      <div className="w-auto h-auto lg:h-[488px] py-[112px] px-[64px] sm:py-[112px] md:px-[64px] mt-16">
         <div className=" h-auto w-auto lg:h-[136px] lg:w-[1152px]  flex flex-col items-center justify-evenly text-center">
           <h1 className={`${roboto.className} font-bold text-4xl lg:text-5xl `}>
             Our Achievements
